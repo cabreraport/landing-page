@@ -13,8 +13,8 @@ body {
     display: flex;
     align-items: center;
     flex-direction: row;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 10%;
+    margin-left: 10%;
     background-color: #1f2937;
 }
 
@@ -31,6 +31,7 @@ body {
     margin-right: 10px;
     color: #f9faf8;
     text-decoration: none;
+    font-size: 18px;
 }
 
 .logo {
@@ -41,4 +42,36 @@ body {
     color: #f9faf8;
     text-decoration: none;
     font-weight: bold;
+}
+
+.section-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+}
+
+.hero {
+    display: flex;
+    text-align:center;
+    word-wrap: normal;
+    flex-direction: column;
+    color: #f9faf8;
+    margin: 25px;
+}
+
+.big {
+    font-size: 48px;
+}
+.sub {
+    font-size: 18px;
+}
+
+
+.image {
+    display: flex;
+    text-align: center;
+    margin: 25px;
+    padding: 10%;
+    background-color: #e5e7eb;
 }
