@@ -1,7 +1,11 @@
+body {
+    margin:0;
+}
 
 .header-back {
     display:block;
     background-color: #1f2937;
+    margin:0;
 }
 
 .header-container {
