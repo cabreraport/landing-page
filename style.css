@@ -1,21 +1,32 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 20;
-}
 
-li {
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-}
 
-li a {
-    display: flex;
-}
 
-.site-header {
+.header-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    flex-direction: row;
+    margin-right: 100px;
+    margin-left: 100px;
+    /*background-color: #1f2937;*/
+}
+
+.list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 40%;
+}
+
+.link {
+    display: flex;
+    margin-right: 10px;
+}
+
+
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    width:60%;
 }
