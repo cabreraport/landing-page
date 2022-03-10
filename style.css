@@ -1,0 +1,21 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+}
+
+li {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+li a {
+    display: flex;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
