@@ -1,5 +1,8 @@
 
-
+.header-back {
+    display:block;
+    background-color: #1f2937;
+}
 
 .header-container {
     display: flex;
@@ -7,7 +10,7 @@
     flex-direction: row;
     margin-right: 100px;
     margin-left: 100px;
-    /*background-color: #1f2937;*/
+    background-color: #1f2937;
 }
 
 .list {
@@ -21,12 +24,15 @@
 .link {
     display: flex;
     margin-right: 10px;
+    color: #f9faf8;
+    text-decoration: none;
 }
-
-
 
 .logo {
     display: flex;
     justify-content: flex-start;
     width:60%;
+    font-size: 24px;
+    color: #f9faf8;
+    text-decoration: none;
 }
